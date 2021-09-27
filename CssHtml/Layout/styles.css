@@ -1,0 +1,54 @@
+* {
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    color: #222;
+}
+
+.header, 
+.nav,
+.content, 
+.sidebar, 
+.footer {
+
+    width: 100%;
+    border: 1px solid #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page {
+    min-height: 100vh;
+    max-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    height: 150px;
+}
+
+.nav {
+    height: 75px;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+
+    height: 100vh;
+}
+
+.sidebar {
+    width: 300px;
+}
+
+.footer {
+
+    margin-top: auto;
+    height: 100px;
+}
+
+

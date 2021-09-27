@@ -1,0 +1,9 @@
+.form .item-image:focus {
+    border: 2px dashed orangered;
+}
+
+.form input:focus:not(.item-image) {
+    border-bottom: 2px solid orangered;
+    color: orangered;
+}
+

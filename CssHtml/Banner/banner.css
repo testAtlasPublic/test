@@ -1,0 +1,41 @@
+.banner {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.text-center,
+.text-top-left,
+.text-top-right,
+.text-bottom-right,
+.text-bottom-left {
+    position: absolute;
+    color: white;
+    transform-origin: center;
+}
+
+.text-center {
+    left: 50%;
+    top: 50%;
+    transform: translate3d(-50%, -50%, 0);
+}
+
+.text-top-left {
+    left: 0px;
+    top: 0px;
+}
+
+.text-top-right {
+    right: 0px;
+    top: 0px;
+}
+
+.text-bottom-right {
+    right: 0px;
+    bottom: 0px;
+}
+
+.text-bottom-left{
+    left: 0px;
+    bottom: 0px;
+}

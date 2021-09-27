@@ -1,0 +1,8 @@
+1) db.getCollection('posts').find().skip(5).limit(10).toArray().sort((a, b) => a.author > b.author ? 1 : -1);
+
+2) db.getCollection('posts').find({"dislike": {$lt: 100}});
+
+3) db.getCollection('posts').updateMany({ author: "a1"}, {$inc: {like: 1} });
+
+4) db.getCollection('posts').aggregate( [ {$group :{ _id : "Likes", total_salary: { $sum : "$like" }}} ] )
+   db.getCollection('posts').find({},{"_id": 0, "title":1})

@@ -1,0 +1,35 @@
+.item {
+    position: relative;
+}
+
+.form #ERROR_IMAGE {
+    position: absolute;
+
+    width: 200%;
+    color: red;
+    font-weight: 300;
+    font-size: 15.5px;
+
+    left: -2%;
+    top: 102%;
+
+    margin-bottom: 5px;
+
+    display: none;
+}
+
+.form .ERROR_INPUT {
+    position: absolute;
+
+    width: 200%;
+    color: red;
+    font-weight: 300;
+    font-size: 15.5px;
+
+    left: 0%;
+    top: 102%;
+
+    margin-bottom: 5px;
+
+    display: none;
+}

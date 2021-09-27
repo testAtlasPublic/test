@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+
+    <link rel="stylesheet" href="../styles/fonts.css">
+    <link rel="stylesheet" href="../styles/null.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/active.css">
+</head>
+
+<body>
+
+
+
+    <div class="page">
+        <h1>FORM</h1>
+
+        <div class="form">
+            <div class="top">
+                <div id="btnImage" class="item item-image" tabindex="1">
+                    <p>IMAGE</p>
+                    <input id="inputFile" type="file">
+                    <img id="userImage" src="imageError.png" alt=" ">
+                </div>
+                <div class="item item-age">
+                    <p class="text">Age</p>
+                    <button id="btnAgePlus">+</button>
+                    <input id="inputAge" type="number" value="18" tabindex="2">
+                    <button id="btnAgeMinus">-</button>
+                </div>
+            </div>
+            <div class="item-name">
+                <div class="item">
+                    <p class="text">First Name</p>
+                    <input id="inputText" class="input" type="text" tabindex="3">
+                </div>
+                <div class="item">
+                    <p class="text">Last Name</p>
+                    <input id="inputText" class="input" type="text" tabindex="4">
+                </div>
+            </div>
+            <div class="item">
+                <p class="text">Email</p>
+                <input id="inputEmail" class="input" type="email" tabindex="5">
+            </div>
+            <div class="item">
+                <p class="text">Password</p>
+                <input id="inputPassword" class="input" type="text" tabindex="6">
+	    </div>
+
+            <button disabled="true" id="btnReg" tabindex="7">Registration</button>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
